@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+	<head>
+		<title>Piedmont Trailer Manufacturing Company</title>
+		
+		<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="PaymentPage.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script type="text/javascript" src="PaymentPage.js"></script>
+	</head>
+	<body>
+    	<header>
+        	<h1>Piedmont Trailer Manufacturing Company</h1>
+            <h2>Payment Page</h2>
+    	</header>
+    	<!--Payment Form-->
+		<form>
+			<label for="paymentSelection">Payment Selection</label><br />
+			<select name="paymentSelection" id="paymentSelection">
+				<option value="credit">Credit/Debit</option>
+				<option value="paypal">PayPal</option>
+			</select><br />
+			<div id = "paymentInfo" class="paymentOption">
+				<label for="cardNumber">Card Number</label>
+				<label for="expiration">Expiration date and Security Code</label><br />
+				<input type="text" id="cardNumber" name="CardNumber">
+				<select name="month">
+					<option value="value1">1</option>
+					<option value="value2">2</option>
+					<option value="value3">3</option>
+					<option value="value4">4</option>
+					<option value="value5">5</option>
+					<option value="value6">6</option>
+					<option value="value7">7</option>
+					<option value="value8">8</option>
+					<option value="value9">9</option>
+					<option value="value10">10</option>
+					<option value="value11">11</option>
+					<option value="value12">12</option>
+				</select>
+				<select name="year">
+					<option value="value1">2020</option>
+					<option value="value2">2021</option>
+					<option value="value3">2022</option>
+					<option value="value4">2023</option>
+					<option value="value5">2024</option>
+					<option value="value6">2025</option>
+					<option value="value7">2026</option>
+					<option value="value8">2027</option>
+					<option value="value9">2028</option>
+					<option value="value10">2029</option>
+					<option value="value11">2030</option>
+					<option value="value12">2031</option>
+				</select>
+				<input type="text" id="securityCode" name="securityCode" size="12">
+			</div>
+			<p class="paymentOption">Billing Information</p>
+			<div id="name" class="paymentOption">
+				<label for="fname">First Name</label>
+				<label for="lname">Last Name</label><br />
+				<input type="text" id="fname" name="fname">
+				<input type="text" id="lname" name="lname"><br />
+			</div>
+			<div id="billingAddress" class="paymentOption">
+				<label for="city">City</label>
+				<label for="address">Billing Address</label><br />
+				<input type="text" id="city" name="city">
+				<input type="text" id="address" name="address">
+			</div>
+			<div id="stateNzipCode" class="paymentOption">
+				<label for="state">State/Province</label>
+				<label for="zipCode">Zip or Postal Code</label><br />
+				<input type="text" id="state" name="state">
+				<input type="text" id="zipCode" name="zipCode">
+			</div>
+			<div id="countryNphone" class="paymentOption">
+				<label for="country">Country</label>
+				<label for="phone">Phone Number</label><br />
+				<input type="text" id="county" name="country">
+				<input type="tel" id="phone" name="phone">
+			</div>
+		</form>

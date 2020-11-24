@@ -1,0 +1,59 @@
+h1{
+	float:inherit;
+	background-color: white;
+	border:solid;
+	border-color:black;
+	color: black;
+	margin-left: 33%;
+	margin-right:33%;
+	text-align: center;
+	text-decoration: none;
+	}
+
+h2{
+	float:inherit;
+	background-color: white;
+	border:solid;
+	border-color:black;
+	color: black;
+	text-align: left;
+	text-decoration: none;
+	}
+
+body{
+	background-color: beige;
+	text-align: center;
+}
+
+form{
+	background-color: white;
+	border: solid;
+	display: inline-block;
+}
+
+#paymentInfo label{
+	margin-right: 50px;
+	margin-left: 45px;
+}
+
+#paymentInfo input{
+	margin-right: 10px;
+}
+
+#name label {
+	margin-right: 105px;	
+}
+
+#billingAddress label {
+	margin-right: 110px;
+	margin-left: 40px;
+}
+#stateNzipCode label {
+	margin-right: 65px;
+	margin-left: 15px;
+}
+
+#countryNphone label{
+	margin-right: 100px;
+	margin-left: 25px;
+}
