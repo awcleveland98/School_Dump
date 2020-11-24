@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Financial Calculator</title>
+		<meta charset="utf-8">
+      	<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="main.css">
+		<script src="main.js"></script>
+	</head>
+	<body>
+		<form name="fincalc" id="fincalc">
+			<fieldset>
+				<p>
+					Enter the amount of the mortgage, change the yearly interest rate in percentage (e.g. 8.5% = 8.5) if you are quoted a different rate
+					and if you are quoted a different rate, and select length of loan in number of years. Click the "calculate" button to view the monthly
+					payment. Click "reset" button to clear the form. For personal and business loans there will be a $1000.00 and $500.00 origination fees
+					that will be included in monthly payments. There is no origination fee for education loans.
+				</p>
+			</fieldset>
+			<fieldset>
+				<label for="loantype">
+					Type of loan:
+					<input type="radio" name="loantype" value="Personal ($1000.00 origination fee)" checked>Personal ($1000.00 origination fee)<br>
+					<input type="radio" name="loantype" value="Business ($500.00 origination fee)">Business ($500.00 origination fee)<br>
+					<input type="radio" name="loantype" value="Education">Education
+				</label>
+			</fieldset>
+			<fieldset>
+				<label>
+					Loan amount:
+					<input type="text" name="loanamount" id="loanamount">
+				</label>
+			</fieldset>
+			<fieldset>
+				<label>
+					Interest rate IN decimal(e.g. 8.5% = 8.5):
+					<input type="text" name="interest" id="interest" value="7.5">
+				</label>
+			</fieldset>
+			<fieldset>
+				<label>
+					Length of loan in years:
+					<select id="loanlength" name="loanlength">
+						<option value="5">5</option>
+						<option value="10">10</option>
+						<option value="15">15</option>
+						<option value="20">20</option>
+						<option value="25" selected>25</option>
+						<option value="30">30</option>
+					</select>
+				</label>
+			</fieldset>
+			<fieldset>
+				<label>
+					Full time student:
+					<input type="checkbox" id="student" name="student"> (get 1% rate discount)
+				</label>
+			</fieldset>
+			<fieldset>
+				<input type="button" id="SMP" value="Calculate Monthly Payments" onclick="showVal()">
+				<input type="reset" id="reset" value="Reset" onclick="return resetForm()">
+			</fieldset>
+			<fieldset class="mpayment">
+				<label id="mpayment">
+					Monthly payments
+				</label>
+				<label>	
+					$<span id="mMessage" onclick="showVal()"> </span>
+				</label>
+			</fieldset>
+			<fieldset class="tpayment">
+				<label id="tpayment">
+					Total Payments
+				</label>
+				<label>
+					$<span id="tMessage" onclick="showVal()"> </span>
+				</label>
+			</fieldset>			
+		</form>
+	</body>
+</html>

@@ -1,0 +1,13 @@
+    	/*Murfreesboro Regional Soccer League style sheet, styles.css, Alexander Cleveland, 05/28/19, HTML5 and CSS3 Illustrated Unit C, Independent Challenge 2*/
+    	h1{
+      		background-color: orangered;
+      		text-align: center;
+      	}
+      	article{
+      		text-align: center;
+      	}
+      	footer{
+      		background-color: green;
+      		color: white;
+      		text-align: right;
+      	}

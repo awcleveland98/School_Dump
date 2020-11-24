@@ -1,0 +1,27 @@
+﻿/* 
+   Murfreesboro Regional Soccer League style sheet 
+   Filename: styles.css
+
+   Author:   
+   Date:     
+   HTML5 and CSS3 Illustrated Unit D, Independent Challenge 2
+ */
+
+/* headings */
+header {
+   text-align: center;
+   color: white;
+   background-color: green;
+}
+
+/* sidebar */
+aside {
+   background-color: lightgreen;
+}
+
+/* footer section */
+footer {
+   color: white;
+   background-color: black;
+   text-align: right;
+}

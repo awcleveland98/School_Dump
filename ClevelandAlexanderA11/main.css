@@ -1,0 +1,20 @@
+form{
+	padding: 2%;
+}
+
+fieldset{
+	border: 1px solid black;
+}
+
+.mpayment, .tpayment{
+	text-align: right;
+}
+
+#mpayment, #tpayment{
+	color: red;
+}
+
+span{
+	border: 1px solid black;
+	padding: 0.2em;
+}

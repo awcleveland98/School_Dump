@@ -1,0 +1,134 @@
+=====
+area 1
+
+shape
+rectangle
+
+coordinates
+9,123,22,165
+
+alt text
+small rectangle just outside left end of field
+
+link target
+#goal
+
+=====
+area 2
+
+shape
+rectangle
+
+coordinates
+24,111,44,179
+
+alt text
+small rectangle just inside left end of field
+
+link target
+#goalbox
+
+=====
+area 3
+
+shape
+polygon
+
+coordinates
+24,70,85,70,85,220,23,221,22,179,45,180,46,111,23,112
+
+alt text
+large rectangle enclosing smaller rectangle just inside left end of field
+
+link target
+#penaltybox
+
+=====
+area 4
+
+shape
+polygon
+
+coordinates
+88,120,98,138,97,155,87,172
+
+alt text
+edge of a circle just outside large rectangle on left end of field
+
+link target
+#penaltyarc
+
+=====
+area 5
+
+shape
+circle
+
+coordinates
+226,148,35
+
+alt text
+circle in center of field
+
+link target
+#centercircle
+
+=====
+area 6
+
+shape
+polygon
+
+coordinates
+361,120,347,137,350,154,361,168
+
+alt text
+edge of a circle just outside large rectangle on right end of field
+
+link target
+#penaltyarc
+
+=====
+area 7
+
+shape
+polygon
+
+coordinates
+365,72,423,72,423,111,401,111,402,184,423,184,423,220,365,221
+
+alt text
+large rectangle enclosing smaller rectangle just inside right end of field
+
+link target
+#penaltybox
+
+=====
+area 8
+
+shape
+rectangle
+
+coordinates
+406,113,425,178
+
+alt text
+small rectangle just inside right end of field
+
+link target
+#goalbox
+
+=====
+area 9
+
+shape
+rectangle
+
+coordinates
+428,126,442,168
+
+alt text
+small rectangle just outside right end of field
+
+link target
+#goal

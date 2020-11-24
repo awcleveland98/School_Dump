@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Murfreesboro Regional Soccer League - Field Basics</title>
+      <!--
+         Murfreesboro Regional Soccer League Soccer Field Basics page
+         Filename: field.html
+      
+         Author: Alexander Cleveland  
+         Date: 05/30/19    
+         HTML5 and CSS3 Illustrated Unit G, Independent Challenge 2
+      -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <script src="modernizr.custom.40753.js"></script>
+      <link rel="stylesheet" href="styles.css">
+      <link rel="shortcut icon" href="images/favicon.ico">
+      <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+      <link rel="icon" sizes="192x192" href="images/android.png">
+   </head>
+   <body>
+      <div class="container">
+         <p class="skipnavigation"><a href="#contentstart">Skip navigation</a></p> 
+         <header>
+            <h1>Murfreesboro Regional Soccer League</h1>
+            <div>
+            	<a href="index.html"><img src="images/mrsl.png" width="224" height="105" alt=""></a>
+            </div>
+         </header>
+         <nav class="sitenavigation">
+            <p><a href="index.html">Home</a></p>
+            <p><a href="field.html">Field Basics</a></p>
+            <p><a href="schedule.html">Schedules</a></p>
+         </nav>
+         <article>
+            <h2 id="contentstart">Field Basics</h2>
+            <p>The diagram below shows the standard markings on a soccer field. Click any area to view an explanation of its role in the game.</p>
+            <p><img src="images/field.jpg" width="450" height="293" alt="diagram of a soccer field" class="imagemap" usemap="#fieldmap"></p>
+            <map name="fieldmap">
+            	<area shape="rect" coords="9,123,22,165" alt="small rectangle just outside left end of field" href="#goal">
+            	<area shape="rect" coords="24,111,44,179" alt="small rectangle just inside left end of field" href="#goalbox">
+            	<area shape="poly" coords="24,70,85,70,85,220,23,221,22,179,45,180,46,111,23,112" alt="large rectangle enclosing smaller just inside left end of field" href="#penaltybox">
+            	<area shape="poly" coords="88,120,98,138,97,155,87,172" alt="edge of a circle just outside large rectangle on the left end of the field" href="#penaltyarc">
+            	<area shape="circle" coords="226,148,35" alt="circle in center of field" href="#centercircle">
+            	<area shape="poly" coords="361,120,347,137,350,154,361,168" alt="edge pf a circle just outside large rectanle on the right end of field" href="#penaltyarc">
+            	<area shape="poly" coords="365,72,423,72,423,111,401,111,402,184,423,184,423,220,365,221" alt="large rectangle enclosing smaller rectangle just inside right end of field" href="#penaltybox">
+            	<area shape="rect" coords="406,113,425,178" alt="small rectangle just inside right end of field" href="#goalbox">
+            	<area shape="rect" coords="428,126,442,168" alt="small rectanle just outside right end of field" href="#goal">
+            	<area shape="rect" coords="25,9,224,282" alt="home field" href="#homefield">
+            	<area shape="rect" coords="226,12,427,282" alt="away field" href="#awayfield">
+            </map>
+            <h3 id="goal">Goal</h3>
+            <p>The area where opposing players must get ball to score a point.</p>
+            <h3 id="goalbox">Goal box</h3>
+            <p>The area from where a player makes a penalty kick.</p>
+            <h3 id="penaltybox">Penalty box</h3>
+            <p>The area in which a goal keeper can touch the ball with their hands.</p>
+            <h3 id="penaltyarc">Penalty arc</h3>
+            <p>A marking indicating the extra distance players must keep from kicker during a penalty kick.</p>
+            <h3 id="centercircle">Center circle</h3>
+            <p>The location of the kickoff. Defending players can't enter the circle until after the kick.</p>
+         	<h3 id="homefield">Home Field</h3>
+         	<p>Home team plays on this field first half</p>
+         	<h3 id="awayfield">Away Field</h3>
+         	<p>Away team plays on the field first half</p>
+         </article>
+         <footer>
+            <p>418 N. Sartoris St. &bull; Murfreesboro, TN 37130 &bull; (615) 555-2255</p>
+         </footer>
+      </div>
+   </body>
+</html>

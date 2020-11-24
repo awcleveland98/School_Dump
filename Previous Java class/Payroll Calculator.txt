@@ -1,0 +1,40 @@
+import java.util.Scanner;
+public class PayrollCalculator {
+public static void main(String [] args){
+
+Scanner keyboard = new Scanner(System.in);
+
+System.out.println("Enter employee's firstname: ");
+String firstname = keyboard.next();
+System.out.println("Enter employee's lastname: ");
+String lastname = keyboard.next();
+System.out.println("Enter employee's SSN: ");
+int ssn = keyboard.nextInt();
+System.out.println("Enter number of hours worked in a week: ");
+double hoursworked = keyboard.nextDouble();
+System.out.println("Enter hourly pay rate: ");
+double pay = keyboard.nextDouble();
+System.out.println("Enter employee's federal tax withholding rate: ");
+double federaltax = keyboard.nextDouble();
+System.out.println("Enter employee's state tax withholding rate: ");
+double statetax = keyboard.nextDouble();
+
+double grosspay = pay * hoursworked;
+double astax = grosspay * statetax;
+double aftax = grosspay * federaltax;
+double deduction = aftax + astax;
+double netpay = grosspay - deduction;
+
+System.out.println("Payroll summary for " + firstname + " " + lastname); 
+System.out.println("Hours worked: " + hoursworked);
+System.out.println("Pay rate: " + pay);
+System.out.println("Gross pay: " + grosspay);
+System.out.println("Deductions: ");
+System.out.println("     Federal withholding " + aftax);
+System.out.println("     State Withholding " + astax);
+System.out.println("     Total deduction: " + deduction);
+System.out.println("Net pay: " + netpay);
+
+keyboard.close();
+}
+}

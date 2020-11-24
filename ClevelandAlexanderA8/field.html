@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Murfreesboro Regional Soccer League - Field Basics</title>
+      <!--
+         Murfreesboro Regional Soccer League Soccer Field Basics page
+         Filename: field.html
+      
+         Author: Alexander Cleveland  
+         Date: 06/01/19    
+         HTML5 and CSS3 Illustrated Unit G, Independent Challenge 2
+      -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <script src="modernizr.custom.40753.js"></script>
+      <link rel="stylesheet" href="styles.css">
+      <link rel="shortcut icon" href="images/favicon.ico">
+   </head>
+   <body>
+      <div class="container">
+      	 <div class="row">
+      	 	<p class="skipnavigation"><a href="#contentstart">Skip navigation</a></p> 
+         	<header>
+            	<div class="col-sm-3 col-md-3 col-lg-3">
+            		<div><a href="index.html"><img src="images/mrsl.png" width="224" height="105" alt=""></a></div>        		
+            	</div>
+            	<div class="hidden-xs hidden-sm col-md-9 col-lg-9">
+            		<h1>Murfreesboro Regional Soccer League</h1>
+            	</div>
+         	</header>
+      	 </div>
+      	 <div class="row">
+      	 	<nav class="navbar navbar-default">
+  				<div class="container-fluid">
+    				<div class="navbar-header">
+    					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span>
+        					<span class="icon-bar"></span> 
+      					</button>
+      					<a class="navbar-brand" href="index.html">MRSC</a>
+    				</div>
+    				<div class="collapse navbar-collapse" id="myNavbar">
+      					<ul class="nav navbar-nav">
+        					<li class="active"><a href="index.html">Home</a></li>
+        					<li><a href="started.html">Getting Started</a></li>
+        					<li><a href="schedule.html">Schedules</a></li> 
+        					<li><a href="field.html">Field Location</a></li> 
+        				</ul>
+    				</div>
+  				</div>
+			</nav>
+      	 </div>
+      	 <div class="row">
+      	 	<article>
+            	<h2 id="contentstart">Field Basics</h2>
+            	<p>The diagram below shows the standard markings on a soccer field. Click any area to view an explanation of its role in the game.</p>
+                <p><img src="images/field.jpg" width="450" height="293" usemap="#fieldmap" class="imagemap"></p>
+            	<map name="fieldmap">
+            		<area shape="rect" coords="9,123,22,165" href="#goal" alt="small rectangle just outside left end of field">
+					<area shape="rect" coords="24,111,44,179" href="#goalbox" alt="small rectangle just inside left end of field">
+					<area shape="poly" coords="24,70,85,70,85,220,23,221,22,179,45,180,46,111,23,112" href="#penaltybox" alt="small rectangle just inside left end of field">
+					<area shape="poly" coords="88,120,98,138,97,155,87,172" href="#penaltyarc" alt="small rectangle just inside left end of field">
+					<area shape="circle" coords="226,148,35" href="#centercircle" alt="small rectangle just inside left end of field">
+					<area shape="poly" coords="361,120,347,137,350,154,361,168" href="#penaltyarc" alt="small rectangle just inside left end of field">
+					<area shape="poly" coords="365,72,423,72,423,111,401,111,402,184,423,184,423,220,365,221" href="#penaltybox" alt="small rectangle just inside left end of field">
+					<area shape="rect" coords="406,113,425,178" href="#goalbox" alt="small rectangle just inside left end of field">
+					<area shape="rect" coords="428,126,442,168" href="#goal" alt="small rectangle just inside left end of field">
+            		<area target="" alt="Home Field" title="Home Field" href="#homefield" coords="27,14,223,278" shape="rect">
+    				<area target="" alt="Away Field" title="Away Field" href="#awayfield" coords="229,14,426,282" shape="rect">
+            	</map>
+            	<dl>
+            		<dt id="goal">Goal</dt>
+	            	<dd>The area where opposing players must get ball to score a point.</dd>
+	            	<dt id="goalbox">Goal box</dt>
+	            	<dd>The area from where a player makes a penalty kick.</dd>
+	            	<dt id="penaltybox">Penalty box</dt>
+	            	<dd>The area in which a goal keeper can touch the ball with their hands.</dd>
+	            	<dt id="penaltyarc">Penalty arc</dt>
+	            	<dd>A marking indicating the extra distance players must keep from kicker during a penalty kick.</dd>
+	            	<dt id="centercircle">Center circle</dt>
+	            	<dd>The location of the kickoff. Defending players can't enter the circle until after the kick.</dd>
+	            	<dt id="homefield">Home Field</dt>
+	            	<dd>Home team plays on this field first half.</dd>
+	            	<dt id="awayfield">Away Field</dt>
+	            	<dd>Away team plays on this field first half.</dd>
+            	</dl>
+         	</article>
+      	 </div>
+      	 <div class="row">
+      	 	<footer>
+            	<p>c/o Davies Sporting Goods</p>
+            	<p>418 N. Sartoris St.</p>
+            	<p>Murfreesboro, TN 37130</p>
+            	<p>(615) 555-2255</p>
+         	</footer>
+      	 </div>  
+      </div>
+      <!-- Latest compiled and minified CSS --> 
+      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"> 
+      <!-- jQuery library --> 
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> 
+      <!-- Latest compiled JavaScript --> 
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+   </body>
+</html>

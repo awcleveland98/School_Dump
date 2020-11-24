@@ -1,0 +1,104 @@
+/* 
+   Murfreesboro Regional Soccer League style sheet 
+   Filename: styles.css
+
+   Author: Alexander Cleveland  
+   Date: 05/29/19    
+   HTML5 and CSS3 Illustrated Unit E, Independent Challenge 2
+ */
+
+/* reset styles */
+article, aside, body, div, footer, header, h1, h2, p {
+   border: 0;
+   padding: 0;
+   margin: 0;
+}
+
+html{
+	font-size: 14px;
+}
+
+/* body and page container */
+body {
+   background-color: ivory;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+   max-width: 640px;
+   margin: 0 auto;
+   border-left: 2px solid black;
+   border-right: 2px solid black;
+   position: relative;
+   background-color: white;
+}
+
+p{
+	font-size: 1.2em;
+}
+
+
+/* header section */
+header {
+   padding: 0.5em;
+   text-align: center;
+   background-color: rgb(140,198,63);
+}
+
+h1{
+	font-size: 2em;
+	line-height: 1.4em;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-shadow: 0 0 10px ivory;
+}
+
+header p{
+	font-style: italic;
+}
+
+/* main content */
+article {
+   padding: 3%;
+   width: 55%;
+   position: absolute;
+   left: 0;
+}
+article p {
+   margin-bottom: 1em;
+}
+
+article p.firstparagraph:first-line{
+	font-weight: bold;
+}
+/* sidebar */
+aside {
+   padding: 2%;
+   width: 35%;
+   position: relative;
+   left: 61%;
+   background-color: #c8f098;
+}
+aside h2 {
+   margin: 0 0 0.4em;
+   font-family: Georgia, "Times New Roman", Times, serif;
+   font-size: 1.6em;
+}
+aside p {
+   margin: 0 0 1em 1em;
+}
+aside p.accent {
+   margin: 0;
+   font-weight: bold;
+}
+
+/* footer section */
+footer {
+   padding: 0.5em;
+   clear: both;
+   color: white;
+   background-color: black;
+   text-align: right;
+}
+
+footer p.accent{
+	font-weight: bold;
+}

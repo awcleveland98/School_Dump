@@ -1,0 +1,101 @@
+﻿/* 
+   Murfreesboro Regional Soccer League style sheet 
+   Filename: styles.css
+
+   Author:   
+   Date:     
+   HTML5 and CSS3 Illustrated Unit F, Independent Challenge 2
+ */
+
+/* reset styles */
+html {
+   font-size: 14px;
+}
+article, aside, body, div, footer, header, h1, h2, h3, nav, p {
+   border: 0;
+   padding: 0;
+   margin: 0;
+}
+
+/* body and page container */
+body {
+   background-color: ivory;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+   max-width: 640px;
+   margin: 0 auto;
+   position: relative;
+   background-color: #c8f098;
+   border-left: 2px solid black;
+   border-right: 2px solid black;
+}
+p {
+   font-size: 1.2em;
+}
+
+/* header section */
+header {
+   padding: 1em 0.5em 0.5em;
+   text-align: center;
+   background-color: rgb(140,198,63);
+}
+h1 {
+   font-size: 2em;
+   line-height: 1.4em;
+   font-family: Georgia, "Times New Roman", Times, serif;
+}
+header p {
+   font-style: italic;
+}
+
+/* main content */
+article {
+   padding: 1em 3%;
+   width: 65%;
+   position: relative;
+   left: 29%;
+   background-color: white;
+}
+article h2 {
+   margin: 0 0 0.4em;
+   font-family: Georgia, "Times New Roman", Times, serif;
+   font-size: 1.6em;
+}
+article h3 {
+   margin: 0 0 0.6em;
+   font-family: Georgia, "Times New Roman", Times, serif;
+   font-size: 1.2em;
+}
+article p {
+   margin: 0 0 1em 1em;
+   padding-left: 7%;
+}
+article p.accent {
+   margin: 0;
+   font-weight: bold;
+}
+
+/* footer section */
+footer {
+   padding: 0.5em;
+   clear: both;
+   color: white;
+   background-color: black;
+   text-align: right;
+}
+
+/* print styles */
+@media print {
+   aside, body, .container, footer, header {
+      color: #000;
+      background-color: #fff;
+      border: 0;
+   }
+   body {
+      max-width: 100%;
+   }
+}
+@page {
+   margin: 0.75in;
+}
